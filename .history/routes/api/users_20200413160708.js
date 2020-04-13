@@ -9,8 +9,8 @@ const validateLoginInput = require("../../validation/login");
 // Load User model
 const User = require("../../models/User");
 
-
-
+var express = require('express');  
+var router = express.Router();
 
 router.get('/', function(req, res, next) {  
       res.status(200).send("Hi, It works!")  

@@ -12,11 +12,6 @@ const User = require("../../models/User");
 
 
 
-router.get('/', function(req, res, next) {  
-      res.status(200).send("Hi, It works!")  
-});
-
-
 
 
 
