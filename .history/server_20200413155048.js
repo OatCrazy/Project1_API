@@ -46,7 +46,7 @@ app.use("/api/profile", profile);
 // const HOSTNAME = process.env.HOSTNAME
 // run ที่พอทอะไร
 app.listen(process.env.PORT || 5000, () => {
-    console.log('Server is listening at port: '+process.env.PORT)
+    console.log('Server is listening at port: '+PORT)
 })
 
 // app.listen(process.env.PORT || 5000)
